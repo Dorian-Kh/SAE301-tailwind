@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>SAE301-dorian-khireddine</title>
+</head>
+
+<body class="bg-bg font-poppins">
+    <main class="flex flex-col justify-between items-center">
+        <header class="flex justify-between items-center px-10 py-5">
+            <a href="../../index.html">
+                <img class="w-80" src="../../public/JOUECLUB-LOGO.png" alt="logo">
+            </a>
+            <section class="flex gap-5">
+                <svg class="w-10 h-10 border border-blue rounded-lg p-2" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="none" stroke="var(--clr-blue)" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="7" r="4"></circle>
+                    <path d="M5.5 21a6.5 6.5 0 0 1 13 0"></path>
+                </svg>
+                <svg class="w-10 h-10 border border-blue rounded-lg p-2" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="none" stroke="var(--clr-blue)" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M6 6h15l-1.68 8.39a2 2 0 0 1-2 1.61H8.68a2 2 0 0 1-2-1.61L5 6z"></path>
+                    <circle cx="9" cy="20" r="1"></circle>
+                    <circle cx="18" cy="20" r="1"></circle>
+                </svg>
+            </section>
+        </header>
+        <hr class="w-[60%] border-t border-blue mx-auto">
+
+        <section class="flex flex-col justify-between items-center gap-5 px-10 py-10">
+            <h1 class="font-semibold text-2xl text-blue uppercase">Mon panier</h1>
+            <article class="flex flex-row justify-between gap-20 items-start">
+                <section class="flex flex-col gap-5">
+                    <a href="javascript:history.back()">
+                        <button class="bg-blue flex flex-row p-2 rounded-full shadow-lg cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                                stroke="var(--clr-white)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                            <h3 class="text-white">Continuer mes achats</h3>
+                        </button>
+                    </a>
+                    <ul>
+                        <li class="flex flex-row bg-white justify-between gap-10 p-5 rounded-xl mb-5">
+                            <img class="w-40 h-40 object-contain" src="../../public/jouets/lionceau-blanc.png"
+                                alt="lionceau">
+                            <article class="flex flex-col justify-between gap-5">
+                                <section class="flex flex-row justify-between gap-5">
+                                    <h2 class="text-xl font-medium uppercase">Peluche lionceau assis</h2>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                        fill="none" stroke="var(--clr-dark)" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" role="img" aria-label="croix">
+                                        <line x1="6" y1="6" x2="18" y2="18" />
+                                        <line x1="18" y1="6" x2="6" y2="18" />
+                                    </svg>
+                                </section>
+                                <section class="flex flex-row justify-between items-center gap-10">
+                                    <p>Quantité :</p>
+                                    <button
+                                        class="bg-blue-50 text-blue font-medium flex flex-row items-center gap-5 p-2 rounded-full">
+                                        <p>-</p>
+                                        <p>3</p>
+                                        <p>+</p>
+                                    </button>
+                                    <h2>39,99 x3 = <span class="font-bold text-2xl">119,97 €</span></h2>
+                                </section>
+                            </article>
+                        </li>
+                        <li class="flex flex-row bg-white justify-between gap-10 p-5 rounded-xl mb-5">
+                            <img class="w-40 h-40 object-contain" src="../../public/jouets/tracteur-noir.png"
+                                alt="tracteur">
+                            <article class="flex flex-col justify-between gap-5">
+                                <section class="flex flex-row justify-between gap-5">
+                                    <h2 class="text-xl font-medium uppercase">Tracteur noir</h2>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                        fill="none" stroke="var(--clr-dark)" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" role="img" aria-label="croix">
+                                        <line x1="6" y1="6" x2="18" y2="18" />
+                                        <line x1="18" y1="6" x2="6" y2="18" />
+                                    </svg>
+                                </section>
+                                <section class="flex flex-row justify-between items-center gap-10">
+                                    <p>Quantité :</p>
+                                    <button
+                                        class="bg-blue-50 text-blue font-medium flex flex-row items-center gap-5 p-2 rounded-full">
+                                        <p>-</p>
+                                        <p>1</p>
+                                        <p>+</p>
+                                    </button>
+                                    <h2>39,99 x1 = <span class="font-bold text-2xl">39,99 €</span></h2>
+                                </section>
+                            </article>
+                        </li>
+
+                    </ul>
+                </section>
+                <aside class="bg-white text-xl font-medium p-10 rounded-xl flex flex-col gap-5">
+                    <article class="flex flex-col justify-between gap-4">
+                        <h2 class="">Ma commande</h2>
+                        <hr>
+                        <ul class="flex flex-col justify-between items-end">
+                            <il>119,97 €</il>
+                            <il>+39,99 €</il>
+                        </ul>
+                        <hr>
+                        <ul class="flex flex-row justify-between gap-30 w-full">
+                            <il>Total =</il>
+                            <il class="font-bold text-3xl">159,96 €</il>
+                        </ul>
+                    </article>
+                    <button class="bg-tan p-4 rounded-full">Valider la commande</button>
+                </aside>
+            </article>
+        </section>
+    </main>
+</body>

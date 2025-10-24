@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme inline {
+    --color-dark: var(--clr-dark);
+    --color-white: var(--clr-white);
+    --color-blue: var(--clr-blue);
+    --color-bg: var(--clr-bg);
+    --color-red: var(--clr-red);
+    --color-green: var(--clr-green);
+    --color-yellow: var(--clr-yellow);
+    --color-tan: var(--clr-tan);
+    --color-tan-over: var(--clr-tan-over);
+    --color-gray-20: var(--clr-gray-20);
+    --color-gray-30: var(--clr-gray-30);
+
+    --font-poppins: var(--font-poppins);
+}
+
+@layer base {
+    :root {
+        --clr-dark: oklch(0 0 0);
+        --clr-white: oklch(1 0 0);
+        --clr-blue: oklch(0.4625 0.1645 265.37);
+        --clr-bg: oklch(0.9738 0.0067 277.16);
+        --clr-red: oklch(0.6037 0.2314 26.7);
+        --clr-green: oklch(0.4931 0.139 146.41);
+        --clr-yellow: oklch(0.8929 0.1825 96.49);
+        --clr-tan: oklch(0.9111 0.1044 87.65);
+        --clr-tan-over: oklch(0.8372 0.1245 86.59);
+        --clr-gray-20: oklch(0 0 0 / 20%);
+        --clr-gray-30: oklch(0 0 0 / 30%);
+
+        --font-poppins: "Poppins", sans-serif;
+    }
+
+    body {
+        --font-family: var(--font-poppins);
+    }
+}
